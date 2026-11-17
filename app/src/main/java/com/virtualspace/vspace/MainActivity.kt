@@ -9,7 +9,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         
-        // En lugar de cargar el diseño XML, creamos un texto directo en el código
+        // En lugar de cargar un XML, creamos un texto directo en el código
         val textView = TextView(this)
         textView.text = "¡VSpace Funciona!"
         textView.textSize = 30f
