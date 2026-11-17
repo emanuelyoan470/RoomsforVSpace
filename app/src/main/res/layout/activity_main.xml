@@ -1,9 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent"
-    android:orientation="vertical" android:gravity="center" android:padding="24dp" android:background="#0F1115">
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="VSpace" android:textColor="#4CAF50" android:textSize="40sp" android:textStyle="bold" android:layout_marginBottom="10dp"/>
-    <Button android:id="@+id/btn_descargar_room11" android:layout_width="match_parent" android:layout_height="60dp" android:text="Descargar Room Android 11" android:layout_marginBottom="16dp"/>
-    <Button android:id="@+id/btn_descargar_room12" android:layout_width="match_parent" android:layout_height="60dp" android:text="Descargar Room Android 12" android:layout_marginBottom="30dp"/>
-    <Button android:id="@+id/btn_iniciar_virtual" android:layout_width="match_parent" android:layout_height="60dp" android:text="Iniciar Espacio Virtual"/>
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:gravity="center" 
+    android:padding="24dp" 
+    android:background="#0F1115">
+
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="VSpace" 
+        android:textColor="#4CAF50" 
+        android:textSize="40sp" 
+        android:textStyle="bold" 
+        android:layout_marginBottom="10dp"/>
+
+    <TextView 
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content" 
+        android:text="Descarga las Rooms acá" 
+        android:textColor="#FFFFFF" 
+        android:textSize="18sp" 
+        android:layout_marginBottom="30dp"/>
+
+    <Button 
+        android:id="@+id/btn_descargar_room11" 
+        android:layout_width="match_parent" 
+        android:layout_height="60dp" 
+        android:text="Descargar Room Android 11" 
+        android:textAllCaps="false"
+        android:backgroundTint="#2C3E50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="16dp"/>
+
+    <Button 
+        android:id="@+id/btn_descargar_room12" 
+        android:layout_width="match_parent" 
+        android:layout_height="60dp" 
+        android:text="Descargar Room Android 12" 
+        android:textAllCaps="false"
+        android:backgroundTint="#2C3E50"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="30dp"/>
+
+    <Button 
+        android:id="@+id/btn_iniciar_virtual" 
+        android:layout_width="match_parent" 
+        android:layout_height="60dp" 
+        android:text="Iniciar Espacio Virtual" 
+        android:textAllCaps="false"
+        android:backgroundTint="#FF9800"
+        android:textColor="#FFFFFF"/>
 </LinearLayout>
