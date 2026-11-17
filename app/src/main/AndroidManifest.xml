@@ -5,8 +5,7 @@
     
     <application 
         android:label="VSpace" 
-        android:theme="@style/Theme.AppCompat.NoActionBar"
-        android:icon="@mipmap/ic_launcher"> <!-- Opcional: el logo -->
+        android:theme="@style/Theme.AppCompat.NoActionBar">
         
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
