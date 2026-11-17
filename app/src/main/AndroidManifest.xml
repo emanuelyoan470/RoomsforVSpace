@@ -5,7 +5,7 @@
     
     <application 
         android:label="VSpace" 
-        android:theme="@style/Theme.AppCompat.NoActionBar">
+        android:theme="@android:style/Theme.DeviceDefault">
         
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
