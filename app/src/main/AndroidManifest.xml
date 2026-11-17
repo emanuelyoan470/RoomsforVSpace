@@ -2,7 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.virtualspace.vspace">
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
-    <application android:label="VSpace" android:theme="@android:style/Theme.NoTitleBar">
+    
+    <application 
+        android:label="VSpace" 
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        android:icon="@mipmap/ic_launcher"> <!-- Opcional: el logo -->
+        
         <activity android:name=".MainActivity" android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
